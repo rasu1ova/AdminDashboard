@@ -1,28 +1,22 @@
 import React from 'react'
-import Logo from '../../img/logo.png'
+import LogoLight from '../../img/logo-light.png'
 
-function Header() {
+function Header({name, usAv}) {
   return (
     <header>
-        <div class="menu-icon">
-           <i class="bi bi-list"></i>
-        </div>
-        <div className="logo">
-            <img src={Logo} alt="there is a logo" />
-        </div>
-        <h1 class="text-3xl font-bold underline">
-          Hello world!
-        </h1>
         <nav>
             <div class="search">
                 <i class="bi bi-search"></i>
-                <input type="search" />
+                <input type="search" placeholder='Search'/>
             </div>
             <div class="bell">
                 <i class="bi bi-bell-fill"></i>
             </div>
             <div class="name">
-
+              {name}
+            </div>
+            <div className="userAvatar">
+              <img src={usAv} alt="there is a user's avatar" />
             </div>
         </nav>
     </header>
