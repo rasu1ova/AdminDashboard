@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoLight from '../../img/logo-light.png'
+import LogoLight from '../../img/logo-light.png';
 
 function Header({name, usAv}) {
   return (

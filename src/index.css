@@ -1,3 +1,11 @@
+:root {
+    --color-primary: #694BDB;
+    --color-secondary: #ecc94b;
+}
+body{
+    font-family: "Mulish", Helvetica;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
