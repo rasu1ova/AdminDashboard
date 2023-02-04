@@ -4,44 +4,12 @@
     padding: 40px 54px;
     background-color: #F5F5F5;
     .loginComp {
-        display: flex;
-        align-items: center;
         .loginFormComp{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 38px;
-            margin: 0 auto;
+            // padding: 38px;
+            // margin: 0 auto;
             max-width: 700px;
-            width: 90%;
+            // width: 90%;
             height: auto;
-            border-radius: 8px;
-        }
-    }
-}
-
-
-.loginForm {
-    width: 50%;
-    height: auto;
-    .formInp {
-        width: 90%;
-        padding:8px 12px;
-        margin: 24px 0;
-        display: flex;
-        align-items: center;
-        border: 1px solid grey;
-        border-radius: 4px;
-        gap: 10px;
-        input{
-            outline: none;
-        }
-    }
-    .formBtn {
-        width: 90%;
-        button{
-            width: 100%;
         }
     }
 }
