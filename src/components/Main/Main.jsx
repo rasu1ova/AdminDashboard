@@ -22,29 +22,29 @@ function Main() {
             <div class="menu  flex flex-col">
                 <div class="menu__item border-b-2 p-4 flex  items-center gap-2  hover:text-[#38bdf8] transition-all ease-in">
                   <div className="menu__icon"><ImStatsDots/></div>
-                  <h1>Dashboard</h1>
+                  <h2>Dashboard</h2>
                 </div>
                 <div class="menu__item border-b-2 p-4 flex items-center gap-2 hover:text-[#38bdf8] transition-all ease-in">
                   <div className="menu__icon"><SlBasket/></div>
-                  <h1>Dashboard</h1>
+                  <h2>Dashboard</h2>
                 </div>
                 <div class="menu__item border-b-2 p-4 flex  items-center gap-2 hover:text-[#38bdf8] transition-all ease-in">
                   <div className="menu__icon"><RxPerson/></div>
-                  <h1>Account</h1>
+                  <h2>Account</h2>
                 </div>
                 <div class="menu__item border-b-2 p-4  flex  items-center gap-2 hover:text-[#38bdf8] transition-all ease-in">
                   <div className="menu__icon"><AiOutlineSetting/></div>
-                  <h1>Settings</h1>
+                  <h2>Settings</h2>
                 </div>
                 <div className="support__div p-4 border-b-2">
-                  <h1 className='text-grey'>Support</h1>
+                  <h2 className='text-grey'>Support</h2>
                   <div className="support__div--chat p-4 flex items-center gap-2 hover:text-[#38bdf8] transition-all ease-in ">
                     <div className="menu__icon"><AiFillWechat/></div>
-                    <h1>Chat</h1>
+                    <h2>Chat</h2>
                   </div>
                   <div className="support__div--faq p-4 flex items-center gap-2 hover:text-[#38bdf8] transition-all ease-in">
                     <div className="menu__icon"><FaQuestionCircle/></div>
-                    <h1>Faq</h1>
+                    <h2>Faq</h2>
                   </div>
                 </div>
             </div>
@@ -54,11 +54,22 @@ function Main() {
           </aside>
           <section className='w-11/12 bg-grey'>
             <Header/>
-            <main>
-              <h1>main part</h1>
+            <main className='p-8 flex justify-center '>
+           
+              <div className="main__right--chart w-5/12">
+                <div className="main__right--hello flex justify-center items-center shadow-headShad w-full gap-4 p-4 bg-green rounded-lg">
+                  <div className="main__right--info w-9/12 gap-4">
+                    <h2 className='text-lg font-bold'>Welcome to your dashboard!</h2>
+                    <p className='text-xs text-brown'>Try our new Admin Dashboard Template, build with live Ant-Design components. Customize it to your needs and release to production!</p>
+                  </div>
+                  <div className="main__right--gif">
+                    <img className='w-full' src='https://cdn.animaapp.com/projects/625319d76f01a03c8be7d01a/files/dashboard-light.gif' alt="there is a dashboard's gif" />
+                  </div>
+                </div>
+              </div>
             </main>
           </section>
-    </div>  
+    </div>
   )
 }
 
