@@ -8,6 +8,7 @@ function App() {
     < >
       {/* <HomePage/> */}
       <Main/>
+      <h1>lorem</h1>
     </>
   );
 }
